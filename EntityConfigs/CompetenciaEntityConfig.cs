@@ -16,6 +16,4 @@ public class CompetenciaEntityConfig:IEntityTypeConfiguration<Competencia>{
         builder.Property(c=>c.ColunaBloom).HasColumnName("ColunaBloom").HasColumnType("varchar(60)").IsRequired();
         builder.Property(c=>c.LinhaBloom).HasColumnName("LinhaBloom").HasColumnType("varchar(60)").IsRequired();
     }
-    
-
 }
